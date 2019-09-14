@@ -1,0 +1,19 @@
+function getProfile() {
+  return {
+    name: 'Nadhia Callista Hapsari',
+    address: 'Perum Jatirejo Blok C No 7, Nganjuk',
+    hobbies: ['Bersepeda', 'Membaca'] //Array,
+    is_married: false //Boolean,
+    school: {
+      highschool: 'SMAN 2 Nganjuk',
+      university: 'UN PGRI Kediri',
+    }, // Object
+    skills:  [{
+      name: 'Adobe Photoshop',
+      years_of_experience: 6
+    },{
+      name: 'Ms. Office',
+      years_of_experience: 6
+    }] // Array of Object
+  }
+}  
